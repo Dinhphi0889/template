@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-.cv-container {
+.container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
@@ -15,7 +15,7 @@ body {
     padding: 20px;
 }
 
-.cv-header {
+.header {
     grid-column: span 2;
     display: flex;
     justify-content: space-between;
@@ -43,11 +43,11 @@ body {
     height: 80px;
 }
 
-.cv-section {
+.section {
     margin-bottom: 20px;
 }
 
-.cv-section h2 {
+.section h2 {
     font-size: 1.4em;
     color: #ff6b00; /* Màu cam đậm giống hình ảnh */
     border-bottom: 2px solid #ff6b00; /* Đường gạch chân cam */

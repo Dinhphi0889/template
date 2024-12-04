@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-.cv-container {
+.container {
     width: 800px;
     margin: 20px auto;
     background: #fff;
@@ -16,23 +16,23 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.cv-header {
+.header {
     text-align: left
     ;
     margin-bottom: 20px;
 }
 
-.cv-header .name {
+.header .name {
     font-size: 2em;
     font-weight: bold;
 }
 
-.cv-header .title {
+.header .title {
     font-size: 1.2em;
     color: #555;
 }
 
-.cv-header .contact-info {
+.header .contact-info {
     font-size: 0.9em;
     color: #777;
     display: flex;
@@ -41,23 +41,23 @@ body {
     flex-wrap: wrap;
 }
 
-.cv-header .contact-info span {
+.header .contact-info span {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.cv-header .contact-info i {
+.header .contact-info i {
     color: #555;
     align-content: space-evenly;
 }
 
-.cv-summary, .cv-experience, .cv-education, .cv-skills, .cv-strengths {
+.summary, .experience, .education, .skills, .strengths {
     margin-bottom: 20px;
     padding-left: 20px;
 }
 
-.cv-summary h2, .cv-experience h2, .cv-education h2, .cv-skills h2, .cv-strengths h2 {
+.summary h2, .experience h2, .education h2, .skills h2, .strengths h2 {
     font-size: 1.4em;
     color: #444;
     border-bottom: 3px solid black;

@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.cv-container {
+.container {
     display: flex;
     width: 800px;
     margin: 20px auto;
@@ -42,11 +42,11 @@ h1.name {
     color: #555;
 }
 
-.cv-summary, .cv-experience, .cv-education, .cv-strengths, .cv-most-proud, .cv-values, .cv-languages, .cv-passions {
+.summary, .experience, .education, .strengths, .most-proud, .values, .languages, .passions {
     margin-bottom: 20px;
 }
 
-.cv-summary h2, .cv-experience h2, .cv-education h2, .cv-strengths h2, .cv-most-proud h2, .cv-values h2, .cv-languages h2, .cv-passions h2 {
+.summary h2, .experience h2, .education h2, .strengths h2, .most-proud h2, .values h2, .languages h2, .passions h2 {
     font-size: 1.4em;
     color: black;
     margin-bottom: 10px;
