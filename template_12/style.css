@@ -7,7 +7,7 @@
   max-width: 800px;
   page-break-after: always;
   font-family: Arial, sans-serif;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 10px 20px;
   background-color: white;
   border: 1px solid #ccc;
@@ -72,8 +72,32 @@
   gap: 20px;
 }
 
+.experience h3 {
+  color: #b4b4a3;
+}
+
+.strengths h3 {
+  color: #b4b4a3;
+}
+
+.skills h3 {
+  color: #b4b4a3;
+}
+
+.education h3 {
+  color: #b4b4a3;
+}
+
+.bio h3 {
+  color: #b4b4a3;
+}
+
 .main-content .summary h3 {
-  
+  color: #b4b4a3;
+}
+
+.languages h3 {
+  color: #b4b4a3;
 }
 
 .left-column {
@@ -140,14 +164,15 @@ strong {
   position: relative;
   margin: 0;
   color: #384347;
-}
-
-.threeItem {
-  display: flex;
-  justify-content: space-between;
+  font-weight: bold;
 }
 
 .course h5 {
   color: rgb(111, 120, 120);
   font-size: 14px;
+}
+
+.languages .flex__style {
+  display: flex;
+  justify-content: space-between;
 }
