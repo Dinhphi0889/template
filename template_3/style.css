@@ -31,6 +31,18 @@
   padding-bottom: 15px;
   margin-bottom: 20px;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.header-resume .left-header {
+  text-align: left;
+}
+
+.header-resume img {
+  width: 70%;
+  text-align: right;
 }
 
 .header-resume h1 {
@@ -42,16 +54,16 @@
 .header-resume h2 {
   font-size: 1.2rem;
   margin: 5px 0 0 0;
-  color: #555;
+  color: rgb(111, 120, 120);
   font-weight: normal;
 }
 
 .info-contact {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   font-size: 0.9rem;
   color: #777;
+  gap: 10px;
 }
 
 .main-content {
@@ -60,12 +72,16 @@
   gap: 20px;
 }
 
+.main-content .summary h3 {
+  
+}
+
 .left-column {
   padding-right: 20px;
 }
 
 .right-column {
-  padding: 0 15px;
+  padding: 0 10px;
   border-radius: 8px;
 }
 
@@ -78,7 +94,6 @@ section h3 {
   color: #222;
   margin-bottom: 10px;
   text-transform: uppercase;
-  border-bottom: 3px solid black;
   padding-bottom: 5px;
 }
 
@@ -87,6 +102,11 @@ section h3 {
   margin: 0;
   color: #444;
   font-weight: bold;
+}
+
+.job h5 {
+  color: rgb(111, 120, 120);
+  font-size: 14px;
 }
 
 .job p {
@@ -101,7 +121,7 @@ section h3 {
 }
 
 .skills,
-.strengths,
+.course,
 .languages {
   font-size: 0.9rem;
   margin-top: 10px;
@@ -109,4 +129,25 @@ section h3 {
 
 strong {
   font-weight: bold;
+}
+
+.skills .skill-item {
+  text-align: left; /* Canh trái */
+}
+
+.skills p {
+  display: inline-block; /* Nội dung trong dòng */
+  position: relative;
+  margin: 0;
+  color: #384347;
+}
+
+.threeItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course h5 {
+  color: rgb(111, 120, 120);
+  font-size: 14px;
 }
