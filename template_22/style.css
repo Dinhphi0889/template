@@ -40,7 +40,10 @@
   width: 150px;
   height: 150px;
   overflow: hidden;
-  /* margin-right: 10px; */
+}
+
+.header-resume i {
+  padding-left: 10px;
 }
 
 .header-resume h1 {
