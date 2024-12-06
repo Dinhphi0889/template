@@ -124,11 +124,11 @@ body {
 }
 
 /* Experience Section */
-.experience-section {
+.experience {
   margin-bottom: 30px;
 }
 
-.experience-section h2 {
+.experience h2 {
   font-size: 1.5rem;
   color: #5c5c5c;
   text-transform: uppercase;
@@ -378,12 +378,12 @@ ul li {
   line-height: 1.6;
 }
 /* Passions Section */
-.passions-section {
+.passions {
   /* margin-bottom: 20px; */
   padding: 10px;
 }
 
-.passions-section h2 {
+.passions h2 {
   font-size: 1.2rem;
   text-transform: uppercase;
   border-bottom: 1px solid #ffffff66;
@@ -392,29 +392,29 @@ ul li {
   color: white;
 }
 
-.passions-section .passion-item {
+.passions .passion-item {
   margin-bottom: 15px;
 }
 
-.passions-section .passion-title {
+.passions .passion-title {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.passions-section .passion-detail {
+.passions .passion-detail {
   font-size: 0.9rem;
   color: #e0f7fa;
   line-height: 1.6;
 }
 
 /* Favorite Quote Section */
-.quote-section {
+.quote {
   margin-bottom: 20px;
   padding: 10px;
 }
 
-.quote-section h2 {
+.quote h2 {
   font-size: 1.2rem;
   text-transform: uppercase;
   border-bottom: 1px solid #ffffff66;
@@ -423,7 +423,7 @@ ul li {
   color: white;
 }
 
-.quote-section blockquote {
+.quote blockquote {
   margin: 0;
   font-size: 0.9rem;
   color: #e0f7fa;
@@ -433,7 +433,7 @@ ul li {
   font-style: italic;
 }
 
-.quote-section blockquote cite {
+.quote blockquote cite {
   display: block;
   margin-top: 5px;
   font-size: 0.8rem;
@@ -442,12 +442,12 @@ ul li {
 }
 
 /* Languages Section */
-.languages-section {
+.languages {
   /* margin-bottom: -20px; */
   padding: 10px;
 }
 
-.languages-section h2 {
+.languages h2 {
   font-size: 1.2rem;
   text-transform: uppercase;
   border-bottom: 1px solid #ffffff66;
@@ -456,25 +456,25 @@ ul li {
   color: white;
 }
 
-.languages-section .language {
+.languages .language {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.languages-section .language-dots {
+.languages .language-dots {
   display: flex;
   gap: 3px;
 }
 
-.languages-section .dot {
+.languages .dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background-color: #ffffff33;
 }
 
-.languages-section .dot.filled {
+.languages .dot.filled {
   background-color: white;
 }

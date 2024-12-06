@@ -330,15 +330,15 @@ h2 {
   color: #d9d9d9;
 }
 /* Section Header */
-.skills-section, .courses-section, .interests-section {
+.skills, .courses, .interests {
     background-color: #006666;
     margin-bottom: 10px;
     color: white;
   }
   
-  .skills-section h2,
-  .courses-section h2,
-  .interests-section h2 {
+  .skills h2,
+  .courses h2,
+  .interests h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -348,23 +348,23 @@ h2 {
   }
   
   /* Skills Section */
-  .skills-section p {
+  .skills p {
     font-size: 14px;
     line-height: 1.6;
     color: #d9d9d9;
   }
   
   /* Section Header */
-.skills-section, .courses-section, .interests-section {
+.skills, .courses, .interests {
     background-color: #006666;
 
     color: white;
 
   }
   
-  .skills-section h2,
-  .courses-section h2,
-  .interests-section h2 {
+  .skills h2,
+  .courses h2,
+  .interests h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -374,7 +374,7 @@ h2 {
   }
   
   /* Skills Section */
-  .skills-section p {
+  .skills p {
     font-size: 14px;
     line-height: 1.4; /* Giảm chiều cao dòng */
     color: #d9d9d9;
@@ -382,14 +382,14 @@ h2 {
   }
   
   /* Courses Section */
-  .courses-section .course-item h3 {
+  .courses .course-item h3 {
     font-size: 16px;
     font-weight: 700;
     color: white;
     margin: 0 0 3px; /* Giảm khoảng cách dưới tiêu đề khóa học */
   }
   
-  .courses-section .course-item p {
+  .courses .course-item p {
     font-size: 14px;
     color: #d9d9d9;
     line-height: 1.4; /* Giảm chiều cao dòng */
@@ -397,29 +397,29 @@ h2 {
   }
   
   /* Interests Section */
-  .interests-section .interest-item {
+  .interests .interest-item {
     display: flex;
     align-items: flex-start;
     margin-bottom: 10px; /* Giảm khoảng cách giữa các mục */
   }
   
-  .interests-section .interest-item:last-child {
+  .interests .interest-item:last-child {
     margin-bottom: 0;
   }
   
-  .interests-section .interest-item .icon {
+  .interests .interest-item .icon {
     font-size: 20px; /* Kích thước biểu tượng nhỏ hơn một chút */
     margin-right: 10px; /* Giảm khoảng cách giữa biểu tượng và nội dung */
   }
   
-  .interests-section .interest-item .details h3 {
+  .interests .interest-item .details h3 {
     font-size: 16px;
     font-weight: 700;
     margin: 0 0 3px; /* Giảm khoảng cách dưới tiêu đề */
     color: white;
   }
   
-  .interests-section .interest-item .details p {
+  .interests .interest-item .details p {
     font-size: 14px;
     line-height: 1.4; /* Giảm chiều cao dòng */
     color: #d9d9d9;
