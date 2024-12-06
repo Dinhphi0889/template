@@ -41,7 +41,10 @@
   width: 150px;
   height: 150px;
   overflow: hidden;
-  /* margin-right: 10px; */
+}
+
+.header-resume i {
+  padding-left: 10px;
 }
 
 .header-resume h1 {
@@ -60,13 +63,9 @@
 .info-contact {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   font-size: 0.9rem;
   color: #777;
-}
-
-.info-contact p {
-  padding-right: 5px;
 }
 
 .main-content {
@@ -145,6 +144,18 @@ li {
 }
 
 .education p {
+  font-size: 13px;
+}
+
+.languages p {
+  font-size: 13px;
+}
+
+.awards p {
+  font-size: 13px;
+}
+
+.references p {
   font-size: 13px;
 }
 
