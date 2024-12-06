@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -13,265 +13,72 @@
     />
     <title>Document</title>
   </head>
+
   <body>
     <div class="resume">
-      <div class="resume-container">
-        <!-- Header -->
-        <header contentEditable="true" class="header-resume">
-          <h1 class="name">{{name}}</h1>
-          <h2 class="job-position">
-            Mechanical Engineer, EIT | HVAC | Plumbing Systems
-          </h2>
-          <div class="info-contact">
-            <p class="email"><i class="fa fa-at"></i> {{email}}</p>
-            <p class="linked"><i class="fa fa-link"></i> linkedin.com</p>
-            <p class="address">
-              <i class="fa fa-map-marker-alt"></i> San Orlando, FL
-            </p>
-          </div>
-        </header>
-
-        <!-- Main Content -->
-        <div class="main-content">
-          <!-- Left Column -->
-          <div class="left-column">
-            <!-- Summary -->
-            <section contenteditable="true" class="summary">
-              <h3><strong>SUMMARY</strong></h3>
-              <p>
-                Enthusiastic Mechanical Engineer with 3 years of experience in
-                HVAC and plumbing systems design. Skilled in REVIT/BIM, energy
-                models, and construction administration. Achieved a 20% cost
-                reduction in HVAC designs. Eager to contribute to sustainable
-                projects with a leading engineering team.
-              </p>
-            </section>
-            <!-- Experience -->
-            <section
-              id="experience-planceholder"
-              contentEditable="true"
-              class="experience"
-            >
-              <h3><strong>EXPERIENCE</strong></h3>
-              <div class="job">
-                <h4>Mechanical Engineer</h4>
-                <p>
-                  <strong>AECOM</strong> <br />
-                  <i class="fa fa-calendar-alt"></i> 03/2021 - Present
-                  <i class="fa fa-map-marker-alt"></i> Orlando, FL
-                </p>
-
-                <ul>
-                  <li>
-                    Developed HVAC and plumbing system designs for commercial
-                    and industrial facilities, resulting in a 20% cost
-                    reduction.
-                  </li>
-
-                  <li>
-                    Reviewed and edited construction specifications using
-                    MasterSpec, ensuring compliance with codes and standards.
-                  </li>
-                  <li>
-                    Participated in construction administration by responding to
-                    RFIs, reviewing shop drawings, and managing construction
-                    submittals.
-                  </li>
-                  <li>
-                    Conducted construction site field observations, preparing
-                    punch lists and ensuring project timelines were met.
-                  </li>
-
-                  <li>
-                    Collaborated with a multidisciplinary team to design
-                    mechanical systems for a $10M water treatment plant
-                    expansion.
-                  </li>
-                </ul>
-              </div>
-              <div class="pd_hr"><hr /></div>
-              <div class="job">
-                <h4>Mechanical Design Engineer</h4>
-                <p>
-                  <strong>Stantec</strong> <br />
-                  <i class="fa fa-calendar-alt"></i> 06/2018 - 02/2021
-                  <i class="fa fa-map-marker-alt"></i> Tampa, FL
-                </p>
-                <ul>
-                  <li>
-                    Supported the design and development of mechanical systems
-                    for new and existing facilities, enhancing energy
-                    efficiency.
-                  </li>
-                  <li>
-                    Sized equipment and developed layouts for HVAC (airside and
-                    hydronic) systems in compliance with ASHRAE standards.
-                  </li>
-                  <li>
-                    Reviewed construction documents and specifications,
-                    contributing to project quality and accuracy.
-                  </li>
-                  <li>
-                    Conducted site visits and field observations, providing
-                    detailed reports and punch lists for project improvements.
-                  </li>
-                  <li>
-                    Assisted in the coordination of mechanical designs with
-                    architectural and structural teams, ensuring seamless
-                    integration.
-                  </li>
-                </ul>
-              </div>
-              <div class="pd_hr"><hr /></div>
-              <div class="job">
-                <h4>Junior Mechanical Engineer</h4>
-                <p>
-                  <strong>Jacobs Engineering</strong> <br />
-                  <i class="fa fa-calendar-alt"></i> 01/2017 - 05/2018
-                  <i class="fa fa-map-marker-alt"></i> Orlando, FL
-                </p>
-                <ul>
-                  <li>
-                    Performed HVAC load calculations and ventilation assessments
-                    for commercial buildings, improving indoor air quality.
-                  </li>
-                  <li>
-                    Developed mechanical system layouts and schematics using
-                    AutoCAD, adhering to project specifications.
-                  </li>
-                  <li>
-                    Participated in the review of shop drawings and submittals,
-                    ensuring adherence to design intent and standards.
-                  </li>
-                  <li>
-                    Assisted senior engineers in the preparation of construction
-                    documents, enhancing technical skills and knowledge.
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <!-- education -->
-            <section contenteditable="true" class="education">
-              <h3><strong>EDUCATION</strong></h3>
-              <p>
-                <b>Master of Science in Mechanical Engineering</b> <br />
-                <b>University of Florida</b> <br />
-                <i class="fa fa-calendar-alt"></i> 01/2015 - 01/2017
-                <i class="fa fa-map-marker-alt"></i> Gainesville, FL
-              </p>
-
-              <div class="pd_hr"><hr /></div>
-
-              <p>
-                <b>Bachelor of Science in Mechanical Engineering</b> <br />
-                <b>University of Central Florida</b> <br />
-                <i class="fa fa-calendar-alt"></i> 11/2015 - 15/2017
-                <i class="fa fa-map-marker-alt"></i> Orlando, FL
-              </p>
-            </section>
-            <!-- Language -->
-            <section contenteditable="true" class="languages">
-              <h3><strong>LANGUAGES</strong></h3>
-              <p>
-                <strong>English</strong>
-                <br />
-                Native
-              </p>
-              <div class="pd_hr"><hr /></div>
-              <p>
-                <strong>Spanish</strong>
-                <br />
-                Advanced
-              </p>
-            </section>
-          </div>
-          <div class="right-column">
-            <!-- Achivements -->
-            <section contentEditable="true" class="achievements">
-              <h3><strong>KEY ACHIVEMENTS</strong></h3>
-
-              <p>
-                <strong
-                  ><i class="fa-solid fa-brain"></i> Cost Reduction in HVAC
-                  Designst</strong
-                ><br />Achieved a 20% cost reduction through optimized HVAC
-                system designs and equipment selection.
-              </p>
-              <div class="pd_hr"><hr /></div>
-              <p>
-                <strong
-                  ><i class="fa-solid fa-heart"></i>Energy Efficiency
-                  Improvements</strong
-                ><br />Enhanced energy efficiency by 15% through innovative
-                mechanical system designs and energy modeling.
-              </p>
-              <p>
-                <strong
-                  ><i class="fa-solid fa-trophy"></i>Successful Project
-                  Management</strong
-                ><br />Led the mechanical design for a $10M water treatment
-                plant expansion, ensuring project completion on time and within
-                budget.
-              </p>
-              <p>
-                <strong
-                  ><i class="fa-solid fa-square-arrow-up-right"></i>Technical
-                  Documentation</strong
-                ><br />Developed comprehensive construction documents and
-                specifications, resulting in improved project accuracy and
-                quality.
-              </p>
-            </section>
-
-            <!-- Skills -->
-            <section id="skills-planceholder" contentEditable class="skills">
-              <h3><strong>SKILLS</strong></h3>
-              <p>
-                HVAC Load Calculations, Energy Models, AutoCAD, REVIT/BIM,
-                Construction Administration, Mechanical System Design
-              </p>
-            </section>
-            <!-- Certification -->
-            <section contenteditable="true" class="certification">
-              <h3><strong>CERTIFICATION</strong></h3>
-              <p>
-                <b>Advanced HVAC Systems Design</b> <br />
-                ASHRAE
-              </p>
-              <div class="pd_hr"><hr /></div>
-              <p>
-                <b>Building Automation Systems</b> <br />
-                Building Performance Institute
-              </p>
-            </section>
-
-            <!-- Passions -->
-            <section contentEditable="true" class="achievements">
-              <h3><strong>PASSIONS</strong></h3>
-              <p>
-                <strong
-                  ><i class="fa-solid fa-trophy"></i> Sustainable
-                  Engineering</strong
-                ><br />Dedicated to developing eco-friendly mechanical systems
-                that promote energy efficiency and sustainability.
-              </p>
-              <div class="pd_hr"><hr /></div>
-              <p>
-                <strong><i class="fa-solid fa-trophy"></i>Cycling</strong
-                ><br />Enjoy exploring new trails and staying active through
-                long-distance cycling.
-              </p>
-              <p>
-                <strong
-                  ><i class="fa-regular fa-flag"></i> Technological
-                  Innovation</strong
-                ><br />Keen interest in leveraging technology to enhance design
-                processes and visualization techniques.
-              </p>
-            </section>
-          </div>
+      <header class="header">
+        <h1 contenteditable="true" class="name">YOUR NAME</h1>
+        <h2 contenteditable="true" class="role">
+          The role you are applying for?
+        </h2>
+        <div class="contact-info">
+          <p contenteditable="true" class="contact">
+            Phone • Email • LinkedIn/Portfolio • Location
+          </p>
         </div>
-      </div>
+      </header>
+      <section class="summary">
+        <h2 class="section-title">Summary</h2>
+        <p contenteditable="true" class="summary-text">
+          Briefly explain why you're a great fit for the role - use the AI
+          assistant to tailor this summary for each job posting.
+        </p>
+      </section>
+      <section class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-item">
+          <h3 contenteditable="true" class="company-name">Company Name</h3>
+          <h3 contenteditable="true" class="company-name">Date Period</h3>
+          <p contenteditable="true" class="title-date">Title</p>
+          <p contenteditable="true" class="description">Company Description</p>
+          <p contenteditable="true" class="location">Location</p>
+          <ul class="achievements">
+            <li contenteditable="true">
+              Highlight your accomplishments, using numbers if possible.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="education">
+        <h2 class="section-title">Education</h2>
+        <p contenteditable="true" class="school-name">
+          <strong>School or University</strong>
+        </p>
+        <p
+          contenteditable="true"
+          class="education-date"
+          style="text-align: right"
+        >
+          Date period
+        </p>
+        <p contenteditable="true" class="degree">Degree and Field of Study</p>
+      </section>
+      <section class="skills">
+        <h2 class="section-title">Skills</h2>
+        <p contenteditable="true" class="skills-list">Your Skill</p>
+      </section>
+      <section class="open-source">
+        <h2 class="section-title">Open Source Work</h2>
+        <div class="project-item">
+          <h3 contenteditable="true" class="project-name">Project Name</h3>
+          <p contenteditable="true" class="project-location">Location</p>
+          <p contenteditable="true" class="project-date">Date period</p>
+          <p contenteditable="true" class="project-summary">
+            Short summary of your work. What was a successful outcome of your
+            work?
+          </p>
+        </div>
+      </section>
     </div>
   </body>
 </html>
