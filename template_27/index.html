@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -13,72 +13,247 @@
     />
     <title>Document</title>
   </head>
-
   <body>
     <div class="resume">
-      <header class="header">
-        <h1 contenteditable="true" class="name">YOUR NAME</h1>
-        <h2 contenteditable="true" class="role">
-          The role you are applying for?
-        </h2>
-        <div class="contact-info">
-          <p contenteditable="true" class="contact">
-            Phone • Email • LinkedIn/Portfolio • Location
-          </p>
+      <div class="resume-container">
+        <!-- Header -->
+        <header contentEditable="true" class="header-resume">
+          <h1 class="name">{{name}}</h1>
+          <h2 class="job-position">
+            Game Designer | Hybrid-casual Expert | Level Balancer
+          </h2>
+          <div class="info-contact">
+            <p class="phone">
+              <i class="fa-solid fa-phone"></i>+1-(234)-555-1234
+            </p>
+            <p class="email"><i class="fa fa-at"></i> {{email}}</p>
+            <p class="linked"><i class="fa fa-link"></i> linkedin.com</p>
+            <p class="address">
+              <i class="fa fa-map-marker-alt"></i> Denver, Colorado
+            </p>
+          </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+          <!-- Left Column -->
+          <div class="left-column">
+            <!-- Summary -->
+            <section contenteditable="true" class="summary">
+              <h3><strong>SUMMARY</strong></h3>
+              <p>
+                With over 6 years of in-depth experience in the Gamedev
+                industry, my technical skills include game mechanics design,
+                UX/UI development, and proficient use of Unity for level design.
+                My greatest achievement has been leading the design of an
+                award-winning mobile game with millions of downloads.
+              </p>
+            </section>
+            <!-- Experience -->
+            <section
+              id="experience-planceholder"
+              contentEditable="true"
+              class="experience"
+            >
+              <h3><strong>EXPERIENCE</strong></h3>
+              <div class="job">
+                <h4>Senior Game Designer</h4>
+                <p>
+                  <strong>Zynga</strong> <br />
+                  <i class="fa fa-calendar-alt"></i> 02/2020 - Present
+                  <i class="fa fa-map-marker-alt"></i> Denver, Colorado
+                </p>
+
+                <ul>
+                  <li>
+                    Led the design for a hybrid-casual game, which achieved 5
+                    million downloads within the first six months of launch.
+                  </li>
+
+                  <li>
+                    Collaborated with a team of 10 developers, ensuring
+                    successful integration of game mechanics that extended user
+                    session time by an average of 20%.
+                  </li>
+                  <li>
+                    Analyzed in-game metrics to refine level progression,
+                    resulting in a 15% increase in daily active users.
+                  </li>
+                  <li>
+                    Pitched and developed three new game concepts, one of which
+                    received company funding for pilot development.
+                  </li>
+
+                  <li>
+                    Designed and executed live operations for prominent titles,
+                    leading to a 10% uplift in monthly revenue.
+                  </li>
+                  <li>
+                    Crafted comprehensive design documentation to streamline
+                    production processes, supporting a 30% faster project
+                    turnaround time.
+                  </li>
+                </ul>
+              </div>
+              <br />
+              <div class="job">
+                <h4>Game Level Designer</h4>
+                <p>
+                  <strong>King</strong> <br />
+                  <i class="fa fa-calendar-alt"></i> 08/2017 - 01/2020
+                  <i class="fa fa-map-marker-alt"></i> Denver, Colorado
+                </p>
+                <ul>
+                  <li>
+                    Contributed to 50+ level designs for a leading puzzle game,
+                    enhancing player engagement.
+                  </li>
+                  <li>
+                    Optimized game balance for a popular brain teaser app,
+                    increasing user retention rate by 25%.
+                  </li>
+                  <li>
+                    Ran A/B tests on user experience modifications, resulting in
+                    a 5% improvement in conversion rate.
+                  </li>
+                  <li>
+                    Managed cross-functional teams in tight deadlines,
+                    delivering projects 10% ahead of schedule consistently.
+                  </li>
+                  <li>
+                    Integrated user feedback into design improvements that
+                    surged the app’s rating on the store by 0.5 stars.
+                  </li>
+                </ul>
+              </div>
+              <br />
+              <div class="job">
+                <h4>Gameplay Programmer</h4>
+                <p>
+                  <strong>Epic Games</strong> <br />
+                  <i class="fa fa-calendar-alt"></i> 05/2014 - 07/2017
+                  <i class="fa fa-map-marker-alt"></i> Denver, Colorado
+                </p>
+                <ul>
+                  <li>
+                    Programmed core game mechanics for a well-received
+                    hybrid-casual title, contributing to 2 million units sold.
+                  </li>
+                  <li>
+                    Enhanced game functionality which increased user play time
+                    by an average of 15 minutes daily.
+                  </li>
+                  <li>
+                    Supported the lead game designer in developing new
+                    functionality for existing titles.
+                  </li>
+                  <li>
+                    Authored robust code for live game operations, facilitating
+                    a smoother user experience and fewer game interruptions.
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- education -->
+            <section contenteditable="true" class="education">
+              <h3><strong>EDUCATION</strong></h3>
+              <p>
+                <b>Associate of Applied Science in Game Design</b> <br />
+                <b>Westwood College</b> <br />
+                <i class="fa fa-calendar-alt"></i> 01/2011 - 01/2013
+                <i class="fa fa-map-marker-alt"></i> Denver, Colorado
+              </p>
+            </section>
+          </div>
+          <div class="right-column">
+            <!-- Achivements -->
+            <section contentEditable="true" class="achievements">
+              <h3><strong>KEY ACHIVEMENTS</strong></h3>
+
+              <p>
+                <strong
+                  ><i class="fa-solid fa-wand-magic-sparkles"></i> Best Mobile
+                  Game Award</strong
+                ><br />Led design for 'Echoes of Magic', which won 'Best Mobile
+                Game' at the Denver Indie Game Expo, featuring original
+                mechanics.
+              </p>
+              <br />
+              <p>
+                <strong
+                  ><i class="fa-solid fa-brain"></i>Top-Grossing Game
+                  Developer</strong
+                ><br />Part of a team at King that was recognized as
+                top-grossing developers for Q2 2018, through innovative level
+                design contributing to game success.
+              </p>
+              <br />
+              <p>
+                <strong
+                  ><i class="fa-regular fa-star"></i>Community’s Choice
+                  Update</strong
+                ><br />Instrumental in developing and releasing a
+                community-elected update, which boosted game ratings by 20%.
+                budget.
+              </p>
+              <br />
+              <p>
+                <strong
+                  ><i class="fa-solid fa-medal"></i>Streamlined Production
+                  Workflow</strong
+                ><br />Initiated a redesign of the production workflow, saving
+                the team an estimated 200 hours in development time annually.
+              </p>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills-planceholder" contentEditable class="skills">
+              <h3><strong>SKILLS</strong></h3>
+              <p>
+                Level Design, Game Mechanics, UX/UI Design, Game Balancing,
+                LiveOps, Unity Engine
+              </p>
+            </section>
+            <!-- Courses -->
+            <section contenteditable="true" class="course">
+              <h3><strong>COURSES</strong></h3>
+              <p>
+                <b>Unity Certified Programmer</b> <br />
+                Specialist certification provided by Unity Technologies,
+                focusing on advanced programming skills within the Unity Engine.
+              </p>
+              <br />
+              <p>
+                <b>Advanced Level Design for Games</b> <br />
+                Specialization in constructing engaging game levels, provided by
+                Coursera, taught by industry professionals.
+              </p>
+            </section>
+
+            <!-- Passions -->
+            <section contentEditable="true" class="achievements">
+              <h3><strong>PASSIONS</strong></h3>
+              <p>
+                <strong
+                  ><i class="fa-solid fa-brain"></i> Creating Engaging Puzzle
+                  Games</strong
+                ><br />Dedicated to designing intricate puzzles that challenge
+                and entertain players, drawing on expertise in game logic and
+                user engagement.
+              </p>
+              <br />
+              <p>
+                <strong
+                  ><i class="fa-regular fa-star"></i>Competitive Table Top
+                  Gaming</strong
+                ><br />Avid enthusiast of competitor in tabletop strategy games,
+                enhancing critical thinking and tactical skills applicable to
+                game design.
+              </p>
+            </section>
+          </div>
         </div>
-      </header>
-      <section class="summary">
-        <h2 class="section-title">Summary</h2>
-        <p contenteditable="true" class="summary-text">
-          Briefly explain why you're a great fit for the role - use the AI
-          assistant to tailor this summary for each job posting.
-        </p>
-      </section>
-      <section class="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="experience-item">
-          <h3 contenteditable="true" class="company-name">Company Name</h3>
-          <h3 contenteditable="true" class="company-name">Date Period</h3>
-          <p contenteditable="true" class="title-date">Title</p>
-          <p contenteditable="true" class="description">Company Description</p>
-          <p contenteditable="true" class="location">Location</p>
-          <ul class="achievements">
-            <li contenteditable="true">
-              Highlight your accomplishments, using numbers if possible.
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="education">
-        <h2 class="section-title">Education</h2>
-        <p contenteditable="true" class="school-name">
-          <strong>School or University</strong>
-        </p>
-        <p
-          contenteditable="true"
-          class="education-date"
-          style="text-align: right"
-        >
-          Date period
-        </p>
-        <p contenteditable="true" class="degree">Degree and Field of Study</p>
-      </section>
-      <section class="skills">
-        <h2 class="section-title">Skills</h2>
-        <p contenteditable="true" class="skills-list">Your Skill</p>
-      </section>
-      <section class="open-source">
-        <h2 class="section-title">Open Source Work</h2>
-        <div class="project-item">
-          <h3 contenteditable="true" class="project-name">Project Name</h3>
-          <p contenteditable="true" class="project-location">Location</p>
-          <p contenteditable="true" class="project-date">Date period</p>
-          <p contenteditable="true" class="project-summary">
-            Short summary of your work. What was a successful outcome of your
-            work?
-          </p>
-        </div>
-      </section>
+      </div>
     </div>
   </body>
 </html>

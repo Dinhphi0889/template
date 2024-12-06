@@ -159,6 +159,10 @@ li {
   font-size: 13px;
 }
 
+.course p {
+  font-size: 13px;
+}
+
 hr {
   border-top: 1px dashed gray;
 }
