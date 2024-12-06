@@ -1,0 +1,190 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header h1, section h2, h3 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.subtitle, .contact-info, p, ul li {
+    font-size: 14px;
+    color: #666;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    letter-spacing: 0.5px;
+}
+
+/* List styles */
+ul {
+    list-style: disc;
+    margin: 0 0 0 20px;
+    padding: 0;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 48%;
+}
+
+/* Achievements Section */
+.achievements {
+    margin-bottom: 20px;
+}
+
+.achievements h2 {
+    margin-bottom: 15px;
+}
+
+.achievement_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.achievement_item {
+    width: 48%;
+}
+
+.achievement_item h3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.achievement_item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Education Section */
+.education h2 {
+    margin-bottom: 15px;
+}
+
+.education-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education-info h3 {
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.education-info span {
+    font-style: italic;
+    color: #555;
+}
+
+/* Experience Section */
+.job {
+    margin-bottom: 30px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-title h3 {
+    margin: 0;
+    color: #000;
+}
+
+.job p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Tech Stack Section */
+.tech-stack-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-item {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+}
+
+/* Certifications Section */
+.certification {
+    margin-bottom: 200px;
+}
+
+.certification-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.certification-item h3 {
+    margin-bottom: 5px;
+    color: #000;
+}

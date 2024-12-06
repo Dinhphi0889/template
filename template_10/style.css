@@ -1,0 +1,428 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    min-height: 100vh; /* Đảm bảo chiều cao toàn màn hình */
+  }
+  
+  .cv-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px; /* Đặt giới hạn chiều rộng tối đa */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-panel, .right-panel {
+    padding: 9px;
+    padding-bottom: 100px;
+  }
+  
+  .left-panel {
+    width: 70%;
+    border-right: 2px solid #e0e0e0;
+  }
+  
+  .right-panel {
+    width: 30%;
+    background-color: #006666;
+    color: white;
+    padding-top: 58px;
+  }
+  
+  
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+  }
+  
+  .summary, .experience, .education, .languages {
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .right-panel h2 {
+    margin-top: 20px;
+    color: wheat;
+  }
+  
+  .right-panel ul {
+    padding-left: 20px;
+  }
+  
+  .right-panel ul li {
+    margin-bottom: 10px;
+  }
+  
+  .right-panel p {
+    margin-bottom: 10px;
+  }
+  /* Áp dụng font cho toàn bộ trang */
+body {
+    font-family: 'Inter', sans-serif; /* Phông chính */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Font Rubik Light cho các header lớn */
+  h1, h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300; /* Light */
+  }
+  
+  /* Font Inter Regular cho nội dung nhỏ hơn */
+  p, ul, li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular */
+  }
+  .header {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .header h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .header .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #3e91f7;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: left;
+    gap: 20px; /* Khoảng cách giữa các phần */
+    font-size: 14px;
+    color: #555555;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Khoảng cách giữa biểu tượng và nội dung */
+  }
+  
+  .contact-info .icon {
+    font-size: 16px;
+    color: #999999; /* Màu biểu tượng */
+  }
+  .experience {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .experience h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+  }
+  
+  .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .experience-item .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .experience-item .details {
+    flex: 1;
+  }
+  
+  .title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-row h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+  }
+  
+  .title-row span {
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .company {
+    font-size: 14px;
+    color: #3e91f7;
+    margin: 5px 0 10px;
+  }
+  
+  .details ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .details ul li {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  /* Section Headers */
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Education Section */
+  .education {
+    margin-bottom: 40px;
+  }
+  
+  .education-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .education-item .details h3 {
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+  }
+  
+  .education-item .details .university {
+    font-size: 14px;
+    color: #3e91f7;
+    margin-top: 5px;
+  }
+  
+  .education-item .metadata {
+    text-align: right;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .education-item .metadata span {
+    display: block;
+  }
+  
+  /* Languages Section */
+  .languages {
+    margin-top: 40px;
+  }
+  
+  .language-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .language-item .proficiency {
+    margin-right: 20px;
+    color: #666666;
+  }
+  
+  .proficiency-bar {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .proficiency-bar .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+  }
+  
+  .proficiency-bar .dot.filled {
+    background-color: #3e91f7;
+  }
+  /* Section Header */
+.key-achievements {
+  background-color: #006666;
+  padding: 20px;
+  color: white;
+}
+
+.key-achievements h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+/* Achievement Items */
+.achievement-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.achievement-item:last-child {
+  margin-bottom: 0;
+}
+
+.achievement-item .icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.achievement-item .details h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 5px;
+  color: white;
+}
+
+.achievement-item .details p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  color: #d9d9d9;
+}
+/* Section Header */
+.skills-section, .courses-section, .interests-section {
+    background-color: #006666;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .skills-section h2,
+  .courses-section h2,
+  .interests-section h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  /* Skills Section */
+  .skills-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d9d9d9;
+  }
+  
+  /* Section Header */
+.skills-section, .courses-section, .interests-section {
+    background-color: #006666;
+
+    color: white;
+
+  }
+  
+  .skills-section h2,
+  .courses-section h2,
+  .interests-section h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px; /* Giảm khoảng cách dưới header */
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  /* Skills Section */
+  .skills-section p {
+    font-size: 14px;
+    line-height: 1.4; /* Giảm chiều cao dòng */
+    color: #d9d9d9;
+    margin-bottom: 10px; /* Giảm khoảng cách dưới */
+  }
+  
+  /* Courses Section */
+  .courses-section .course-item h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 3px; /* Giảm khoảng cách dưới tiêu đề khóa học */
+  }
+  
+  .courses-section .course-item p {
+    font-size: 14px;
+    color: #d9d9d9;
+    line-height: 1.4; /* Giảm chiều cao dòng */
+    margin: 0 0 10px; /* Giảm khoảng cách dưới */
+  }
+  
+  /* Interests Section */
+  .interests-section .interest-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px; /* Giảm khoảng cách giữa các mục */
+  }
+  
+  .interests-section .interest-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .interests-section .interest-item .icon {
+    font-size: 20px; /* Kích thước biểu tượng nhỏ hơn một chút */
+    margin-right: 10px; /* Giảm khoảng cách giữa biểu tượng và nội dung */
+  }
+  
+  .interests-section .interest-item .details h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 3px; /* Giảm khoảng cách dưới tiêu đề */
+    color: white;
+  }
+  
+  .interests-section .interest-item .details p {
+    font-size: 14px;
+    line-height: 1.4; /* Giảm chiều cao dòng */
+    color: #d9d9d9;
+    margin: 0; /* Loại bỏ khoảng cách không cần thiết */
+  }
+  
