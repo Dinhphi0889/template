@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.resume {
+  max-width: 800px;
+  page-break-after: always;
+  font-family: Arial, sans-serif;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* Đặt relative để hỗ trợ các phần tử con có position absolute */
+}
+
+.resume-container {
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: white;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-resume {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.header-resume h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-resume h2 {
+  font-size: 1.2rem;
+  margin: 5px 0 0 0;
+  color: rgb(30, 144, 255);
+  font-weight: normal;
+}
+
+.info-contact {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: #777;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+  gap: 20x;
+}
+
+.left-column {
+  padding-right: 20px;
+}
+
+.right-column {
+  padding: 0 10px;
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+}
+
+.job h4 {
+  font-size: 1rem;
+  margin: 0;
+  color: #444;
+  font-weight: bold;
+}
+
+.job h5 {
+  color: rgb(30, 144, 255);
+  font-size: 14px;
+}
+
+.job p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.job ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.skills,
+.course,
+.languages {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.skills .skill-item {
+  text-align: left; /* Canh trái */
+}
+
+.skills p {
+  display: inline-block; /* Nội dung trong dòng */
+  position: relative;
+  margin: 0;
+  color: #384347;
+}
+
+.threeItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech__stack {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tech__stack h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tech__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tech__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech__group span {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+}
+
+.tech__group.tech__bordered {
+  border: 1px solid #00bfa5;
+  padding: 10px;
+  border-radius: 5px;
+}
