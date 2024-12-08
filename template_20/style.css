@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+  width: 65%;
+  background-color: #f4f9fc;
+  padding: 20px 30px;
+}
+
+.left-section h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #006666;
+}
+
+.left-section h2 {
+  font-size: 18px;
+  color: #007d7e;
+  margin: 5px 0 15px;
+}
+
+.info-contact p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.summary,
+.experience,
+.education {
+  margin-bottom: 30px;
+}
+
+.job h4 {
+  font-size: 16px;
+  color: #444;
+}
+
+.job h5 {
+  font-size: 14px;
+  color: #007d7e;
+}
+
+.job ul {
+  margin: 10px 0;
+  padding-left: 20px;
+  list-style: disc;
+  color: #555;
+}
+
+.job ul li {
+  margin-bottom: 5px;
+}
+
+/* Right Section */
+.right-section {
+  width: 35%;
+  background-color: #007d7e;
+  color: #fff;
+  padding: 20px 30px;
+}
+
+.right-section h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  padding-bottom: 5px;
+}
+
+.achievements p,
+.skills p,
+.languages__style p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.skills span {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.languages__style {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .resume-container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .right-section {
+    background-color: #006666;
+  }
+}
+
+.experience h3 {
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 3px solid rgb(150, 168, 154);
+  padding-bottom: 5px;
+}
+
+.experience h5 {
+  color: rgb(26, 176, 179);
+  font-size: 14px;
+  margin: 5px 0; /* Giảm khoảng cách giữa các h5 */
+}
+
+.experience p {
+  font-size: 14px;
+  margin: 0 0 10px 0; /* Giảm khoảng cách giữa p và các h5 */
+}
+
+.experience h4 {
+  font-size: 14px;
+  margin: 5px 0; /* Giảm khoảng cách giữa các h5 */
+}
+
+.education h5 {
+  font-size: 14px;
+  margin: 5px 0; /* Giảm khoảng cách giữa các h5 */
+}
+
+.education p {
+  font-size: 14px;
+  margin: 0 0 10px 0; /* Giảm khoảng cách giữa p và các h5 */
+}
+
+.education h3 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+}
