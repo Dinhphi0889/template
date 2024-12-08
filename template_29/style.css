@@ -30,10 +30,12 @@
 .resume-container i {
   padding-right: 5px;
 }
+
 .header-resume {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
   text-align: left;
-  display: flex;
-  justify-content: space-between;
+  /* background-color: #283665; */
 }
 
 .header-resume img {
@@ -62,7 +64,7 @@
 .info-contact {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   font-size: 0.9rem;
   color: #777;
 }
@@ -155,6 +157,18 @@ li {
 }
 
 .references p {
+  font-size: 13px;
+}
+
+.course p {
+  font-size: 13px;
+}
+
+.strengths p {
+  font-size: 13px;
+}
+
+.passion p {
   font-size: 13px;
 }
 

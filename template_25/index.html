@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="resume-container">
+        <!-- Header -->
+        <header contentEditable="true" class="header-resume">
+          <h1 class="name">{{name}}</h1>
+          <h2 class="job-position">
+            Experienced Civil Engineer & Project Leader
+          </h2>
+          <div class="info-contact">
+            <p class="phone">
+              <i class="fa-solid fa-phone"></i>+1-541-754-3010
+            </p>
+            <p class="email"><i class="fa fa-at"></i> {{email}}</p>
+            <p class="linked"><i class="fa fa-link"></i> linkedin.com</p>
+            <p class="address">
+              <i class="fa fa-map-marker-alt"></i> San Francisco, CA
+            </p>
+          </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+          <!-- Left Column -->
+          <div class="left-column">
+            <!-- Summary -->
+            <section contenteditable="true" class="summary">
+              <h3><strong>SUMMARY</strong></h3>
+              <p>
+                With over 10 years of experience in civil engineering, I bring a
+                deep technical proficiency and a proven track record of managing
+                large-scale bridge projects. I am adept at using tools like SAP,
+                CSI Bridge, CTBridge, AutoCAD, and MicroStation, and have a
+                strong understanding of Caltrans and local agency design
+                standards. One of my biggest achievements has been the
+                successful completion of a major bridge project that won the
+                'Best Infrastructure Project' award.
+              </p>
+            </section>
+            <!-- Experience -->
+            <section
+              id="experience-planceholder"
+              contentEditable="true"
+              class="experience"
+            >
+              <h3><strong>EXPERIENCE</strong></h3>
+              <div class="job">
+                <h4>Senior Civil Engineer</h4>
+                <p>
+                  <strong>LABC Engineering</strong> <br />
+                  <i class="fa fa-calendar-alt"></i> 2018 - 2023
+                  <i class="fa fa-map-marker-alt"></i> San Francisco, CA
+                </p>
+                <p>Led the design and implementation of bridge projects.</p>
+                <ul>
+                  <li>
+                    Managed a team of 10 engineers, resulting in successful
+                    completion of 5 major bridge projects within a year.
+                  </li>
+
+                  <li>
+                    Implemented new design standards, reducing project costs by
+                    15%.
+                  </li>
+                  <li>
+                    Conducted regular site investigations, ensuring compliance
+                    with local regulations.
+                  </li>
+                </ul>
+              </div>
+              <div class="pd_hr"><hr /></div>
+              <div class="job">
+                <h4>Civil Engineer II</h4>
+                <p>
+                  <strong>XYZ Infrastructure</strong> <br />
+                  <i class="fa fa-calendar-alt"></i> 2015 - 2018
+                  <i class="fa fa-map-marker-alt"></i> San Francisco, CA
+                </p>
+                <p>Worked on the design and analysis of bridge projects.</p>
+
+                <ul>
+                  <li>
+                    Designed and analyzed over 30 bridge structures using SAP
+                    and CSI Bridge.
+                  </li>
+                  <li>
+                    Prepared detailed construction drawings and contract
+                    documents for 20+ projects.
+                  </li>
+                  <li>
+                    Coordinated with local agencies to ensure compliance with
+                    design standards and criteria.
+                  </li>
+                </ul>
+              </div>
+              <div class="pd_hr"><hr /></div>
+              <div class="job">
+                <h4>Civil Engineer I</h4>
+                <p>
+                  <strong>PQR Constructions</strong> <br />
+                  <i class="fa fa-calendar-alt"></i> 2012 - 2015
+                  <i class="fa fa-map-marker-alt"></i> San Francisco, CA
+                </p>
+                <p>
+                  Assisted in the planning and development of 10 bridge
+                  projects.
+                </p>
+                <ul>
+                  <li>
+                    Prepared technical reports, cost estimates, and proposals
+                    for various projects.
+                  </li>
+                  <li>
+                    Collaborated with different teams to ensure smooth execution
+                    of projects.
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- education -->
+            <section contenteditable="true" class="education">
+              <h3><strong>EDUCATION</strong></h3>
+              <p>
+                <b>MSc in Civil Engineering</b> <br />
+                <b>University of California, Berkeley</b> <br />
+                <i class="fa fa-calendar-alt"></i> 2013 - 2014
+                <i class="fa fa-map-marker-alt"></i> Berkeley, CA
+              </p>
+
+              <div class="pd_hr"><hr /></div>
+
+              <p>
+                <b>Bachelor's Degree in Civil Engineering</b> <br />
+                <b>University of California, Berkeley</b> <br />
+                <i class="fa fa-calendar-alt"></i> 2008 - 2012
+                <i class="fa fa-map-marker-alt"></i> Berkeley, CA
+              </p>
+            </section>
+          </div>
+          <div class="right-column">
+            <!-- Skills -->
+            <section id="skills-planceholder" contentEditable class="skills">
+              <h3><strong>SKILLS</strong></h3>
+              <p>
+                SAP, CSI Bridge, CTBridge, AutoCAD, MicroStation, Project
+                Management, Bridge Analysis, Design Standards, Contract
+                Documents
+              </p>
+            </section>
+            <!-- Strength -->
+            <section contentEditable="true" class="strengths">
+              <h3><strong>STRENGTH</strong></h3>
+
+              <p>
+                <strong
+                  ><i class="fa-solid fa-star"></i> Project Management</strong
+                ><br />Managed over 20 large-scale bridge projects, ensuring
+                they were completed on time and within budget.
+              </p>
+              <div class="pd_hr"><hr /></div>
+              <p>
+                <strong
+                  ><i class="fa-solid fa-heart"></i>Technical
+                  Proficiency</strong
+                ><br />Proficient in using SAP, CSI Bridge, CTBridge, AutoCAD,
+                and MicroStation for designing and analyzing bridge structures.
+              </p>
+              <div class="pd_hr"><hr /></div>
+              <p>
+                <strong
+                  ><i class="fa-regular fa-lightbulb"></i>Regulatory
+                  Knowledge</strong
+                ><br />In-depth understanding of Caltrans and local agency
+                design standards, criteria, practices, and policies.
+              </p>
+            </section>
+
+            <!-- Achivements -->
+            <section contentEditable="true" class="achievements">
+              <h3><strong>KEY ACHIVEMENTS</strong></h3>
+
+              <p>
+                <strong
+                  ><i class="fa-solid fa-wand-magic-sparkles"></i> Bridge Design
+                  Patent</strong
+                ><br />Developed a unique bridge design that was patented and
+                has been adopted in multiple infrastructure projects.
+              </p>
+              <div class="pd_hr"><hr /></div>
+              <p>
+                <strong
+                  ><i class="fa-solid fa-star"></i>Leadership in ABC
+                  Engineering</strong
+                ><br />Promoted to a leadership role within two years at ABC
+                Engineering due to exceptional performance and project
+                management skills.
+              </p>
+            </section>
+            <!-- Language -->
+            <section contenteditable="true" class="languages">
+              <h3><strong>LANGUAGES</strong></h3>
+              <p>
+                <strong>English</strong>
+                <br />
+                Native
+              </p>
+              <div class="pd_hr"><hr /></div>
+              <p>
+                <strong>Spanish</strong>
+                <br />
+                Advanced
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

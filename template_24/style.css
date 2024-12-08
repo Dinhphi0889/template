@@ -30,20 +30,18 @@
 .resume-container i {
   padding-right: 5px;
 }
+
 .header-resume {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
   text-align: left;
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-resume img {
   width: 150px;
   height: 150px;
   overflow: hidden;
-}
-
-.header-resume i {
-  padding-left: 10px;
+  /* margin-right: 10px; */
 }
 
 .header-resume h1 {
@@ -62,9 +60,13 @@
 .info-contact {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-size: 0.9rem;
   color: #777;
+}
+
+.info-contact p {
+  padding-right: 5px;
 }
 
 .main-content {
@@ -134,6 +136,10 @@ li {
   font-size: 13px;
 }
 
+.strengths p {
+  font-size: 13px;
+}
+
 .skills p {
   font-size: 13px;
 }
@@ -143,18 +149,6 @@ li {
 }
 
 .education p {
-  font-size: 13px;
-}
-
-.languages p {
-  font-size: 13px;
-}
-
-.awards p {
-  font-size: 13px;
-}
-
-.references p {
   font-size: 13px;
 }
 
