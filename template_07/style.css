@@ -1,0 +1,176 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: left;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .header .highlight {
+    color: #0078d7;
+  }
+  
+  .header p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .contact-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .contact-row span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: white;
+    min-width: 48%;
+  }
+  
+  .contact-row a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-row a:hover {
+    text-decoration: underline;
+  }
+  
+  .summary {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #0078d7;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 50px;
+  }
+  
+  h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: 30px;
+    height: 30px;
+    background-color: #0078d7;
+  }
+  
+  h2 i {
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1rem;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  /* Experience, Education Timeline */
+  .timeline {
+    position: relative;
+    margin-left: 40px;
+    padding-left: 20px;
+    border-left: 2px solid #0078d7;
+  }
+  
+  .experience, .education {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  
+  .experience::before, .education::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #0078d7;
+    transform: rotate(45deg);
+  }
+  
+  .experience .date, .education .date {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .experience h3, .education h3 {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  /* Skills, Software, Certifications */
+  .skills, .software, .certifications {
+    list-style: none;
+    margin-left: 40px;
+    padding-left: 20px;
+    border-left: 2px solid #0078d7;
+  }
+  
+  .skills li::before, .software li::before, .certifications li::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #0078d7;
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-right: 10px;
+  }
+  

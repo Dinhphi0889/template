@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: left
+    ;
+    margin-bottom: 20px;
+}
+
+.header .name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header .title {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.header .contact-info {
+    font-size: 0.9em;
+    color: #777;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header .contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header .contact-info i {
+    color: #555;
+    align-content: space-evenly;
+}
+
+.summary, .experience, .education, .skills, .strengths {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.summary h2, .experience h2, .education h2, .skills h2, .strengths h2 {
+    font-size: 1.4em;
+    color: #444;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.experience-item, .education-item, .skills-list, .strengths-list {
+    margin-left: 20px;
+}
+
+.skills-list, .strengths-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list li, .strengths-list li {
+    margin-bottom: 5px;
+}
+
+ul.skills-list, ul.strengths-list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.skills-list li, ul.strengths-list li {
+    list-style-position: outside;
+}
+
+.education-item, .experience-item {
+    margin-bottom: 15px;
+}
+
+.contenteditable:focus {
+    outline: 2px solid #007bff;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
